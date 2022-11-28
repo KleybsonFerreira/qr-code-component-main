@@ -5,25 +5,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    min-height: 100vh;
+    
 }
+
 .flex img{
     /* margin-top: 100px; */
     height: 290px;
     width: 270px;
-    border-radius: 15px;
+    border-radius: 15px; 
+    flex-wrap: wrap;
 }
 .item1 {
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
     border-radius: 15px;
-    margin-top: 150px;
+    
+
 }
 .item1 h3{
     text-align:center;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     opacity: 80%;
+  
 }   
 
 .item1 p{
